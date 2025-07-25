@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Script running" > /workspace/test.log
 
 tmux new-session -d -s aim 'bash -lc "
   git config --global credential.helper store &&
