@@ -21,3 +21,6 @@ tmux new-session -d -s aim "bash -lc \"
   aim init &&
   aim up --host 0.0.0.0
 \""
+
+
+echo "Finished" > /workspace/test.log
